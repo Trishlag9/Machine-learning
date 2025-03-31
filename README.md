@@ -1,22 +1,31 @@
-# E-commerce Customer Analysis and Prediction
+## 🧠 Machine Learning Starter Projects
 
-This project analyzes an e-commerce dataset to predict customer spending (`Yearly Amount Spent`) based on various features. The dataset includes information such as `Length of Membership`, `Time on App`, `Time on Website`, and `Avg. Session Length`.
+A collection of beginner-friendly machine learning projects that cover essential concepts such as regression, classification, and clustering. Ideal for building foundational skills and understanding practical ML workflows.
 
-## Project Overview
-The goal of this project is to:
-1. Understand customer behavior and spending patterns.
-2. Build a regression model to predict the `Yearly Amount Spent` by customers.
-3. Identify key features that influence customer spending.
+## 📌 Projects Overview
+## 1. 🏠 House Price Prediction
+Type: Regression
+Notebook: HousePricePrediction.ipynb
+Description:
+Used linear regression to predict house prices based on various features from a real estate dataset. The project includes EDA, feature selection, model training, and evaluation using RMSE.
 
-## Dataset Description
-The dataset contains the following columns:
-- **Avg. Session Length**: Average time spent per session on the website.
-- **Time on App**: Time spent on the mobile application.
-- **Time on Website**: Time spent on the website.
-- **Length of Membership**: Duration of customer membership in years.
-- **Yearly Amount Spent**: Total spending by the customer in a year (target variable)
+## 2. 💳 Credit Card Customer Segmentation
 
-## Key findings
-Length of Membership is the strongest predictor of customer spending.
-Customers who spend more time on the app tend to have higher yearly spending.
-The model predictions align well with the actual values, validating the regression model's effectiveness.
+Type: Clustering
+Notebook: CreditCardClustering.ipynb
+Description:
+Applied K-Means clustering to segment credit card customers based on their spending behavior. Visualized clusters to understand customer groups and identify business insights.
+
+## 3. 🎯 Cancer Diagnosis with Logistic Regression
+
+Type: Classification
+Notebook: LogisticRegression.ipynb
+Description:
+Built a logistic regression model to classify whether a tumor is malignant or benign using breast cancer data. Included preprocessing, model evaluation with accuracy, precision.
+
+## 4. 🛍️ E-commerce Customer Spend Prediction
+
+Type: Regression
+Notebook: Regression.ipynb
+Description:
+Predicted annual customer spending using features like time on website, time on app, and session length. Compared linear regression performance and provided actionable business insights.
